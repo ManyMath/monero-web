@@ -1,7 +1,7 @@
 name: monero_web
 description: monero but with wasm_ffi rather than ffi for web targets.
 version: 0.0.1-dev.1
-repository: https://github.com/my_org/my_repo
+repository: https://github.com/ManyMath/monero-web
 
 environment:
   sdk: ^3.6.0-216.1.beta
