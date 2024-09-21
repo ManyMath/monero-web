@@ -1,7 +1,7 @@
 import 'dart:ffi';
 import 'dart:io';
 
-import 'package:ffi/ffi.dart';
+import 'package:wasm_ffi/ffi.dart';
 
 import 'monero-rust_bindings_generated.dart';
 

@@ -1,11 +1,11 @@
-# `monero`
+# `monero-web`
+`monero` but with [`wasm_ffi`](https://pub.dev/packages/wasm_ffi) rather than
+[`ffi`](https://pub.dev/packages/ffi) for web targets.
 
+<!-- Original `monero` READEME.md content below:
 ## Setup
-
 ### Native assets
-
 Native assets is currently an experimental feature that is available in Flutter's `master` branch behind an optional Flutter config:
-
 ```
 flutter config --enable-native-assets
 ```
@@ -21,7 +21,6 @@ git submodule update --init --recursive
 dart pub get
 dart --enable-experiment=native-assets run bin/monero_example.dart
 ```
-<!--- TODO: Remove the `git submodule update --init --recursive` step after libxmr transitions from monero-serai to monero-wallet. --->
 and wait a moment as the native assets are built.
 
 ## Development
@@ -32,3 +31,4 @@ and wait a moment as the native assets are built.
   ```
 - If bindings are generated for a new (not previously supported/included in `lib/monero_base.dart`) 
   function, a wrapper must be written for it by hand (see: `generateMnemonic`, `generateAddress`).
+-->

@@ -1,17 +1,20 @@
-name: monero
-description: Monero Dart SDK.
-version: 0.0.3
-repository: https://github.com/ManyMath/monerodart
+name: monero_web
+description: monero but with wasm_ffi rather than ffi for web targets.
+version: 0.0.1-dev.1
+repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.6.0-0
+  sdk: ^3.6.0-216.1.beta
 
 dependencies:
-  native_toolchain_rust_mirror: ^0.1.0-dev.8
-  native_assets_cli: ^0.7.2
-  ffi: ^2.1.3
-  ffigen: ^14.0.0
+  web: ^0.5.1
+  native_toolchain_rust: ^0.1.0-dev.7
+  native_assets_cli: ^0.7.3
+  wasm_ffi: ^0.9.4
+  monero: ^0.0.3
+  test: ^1.25.8
 
 dev_dependencies:
-  lints: ^3.0.0
-  test: ^1.24.0
+  build_runner: ^2.4.8
+  build_web_compilers: ^4.0.9
+  lints: ^4.0.0
