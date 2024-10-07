@@ -19,7 +19,7 @@ git clone git@github.com:ManyMath/monerodart
 cd monerodart
 git submodule update --init --recursive
 dart pub get
-dart --enable-experiment=native-assets run bin/monero_example.dart
+dart --enable-experiment=native-assets run bin/monero.dart
 ```
 and wait a moment as the native assets are built.
 
